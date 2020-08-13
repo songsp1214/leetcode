@@ -11,7 +11,7 @@ public class LC43 {
         List<String> list = new ArrayList<>();
         int len2 = num2.length();
         String res = multiply(num1, num2.charAt(len2 - 1));
-        StringBuilder s0 = new StringBuilder();
+        StringBuilder s0 = new StringBuilder("0");
         for (int i = len2 - 2; i >= 0; i--) {
             res = add(res, multiply(num1, num2.charAt(i)) + s0.toString());
             s0.append("0");
