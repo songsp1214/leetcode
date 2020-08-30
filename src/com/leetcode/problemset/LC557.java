@@ -1,7 +1,6 @@
 package com.leetcode.problemset;
 
 import java.util.Deque;
-import java.util.Iterator;
 import java.util.LinkedList;
 
 public class LC557 {
